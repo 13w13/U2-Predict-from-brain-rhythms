@@ -14264,7 +14264,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;FSinR&quot;</span><span class="p">)</span>
@@ -14281,7 +14281,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">train_module_scaled</span><span class="o">=</span><span class="nf">fread</span><span class="p">(</span><span class="s">&quot;train_module_scaled.csv&quot;</span><span class="p">)</span>
@@ -14295,7 +14295,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">train_module_scaled</span><span class="o">$</span><span class="n">Id</span><span class="o">=</span><span class="nf">as.factor</span><span class="p">(</span><span class="n">train_module_scaled</span><span class="o">$</span><span class="n">Id</span><span class="p">)</span>
@@ -14425,7 +14425,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">train_select</span><span class="o">=</span><span class="n">train_module_scaled</span><span class="p">[,</span><span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="m">3</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">8</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="m">382</span><span class="p">,</span><span class="m">383</span><span class="p">,</span><span class="m">501</span><span class="p">,</span><span class="m">502</span><span class="p">,</span><span class="m">504</span><span class="p">)]</span>
@@ -14462,10 +14462,10 @@ a.anchor-link {
 <a href="https://mlr3book.mlr-org.com/basics.html">https://mlr3book.mlr-org.com/basics.html</a></p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;mlr3&quot;</span><span class="p">)</span> <span class="c1"># mlr3 base package</span>
@@ -14483,6 +14483,39 @@ a.anchor-link {
 </div>
 </div>
 
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+Attaching package: ‘mlr3misc’
+
+
+The following objects are masked from ‘package:magrittr’:
+
+    set_class, set_names
+
+
+Registered S3 method overwritten by &#39;GGally&#39;:
+  method from   
+  +.gg   ggplot2
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
@@ -14492,7 +14525,7 @@ a.anchor-link {
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">task</span> <span class="o">=</span> <span class="n">TaskClassif</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="n">id</span> <span class="o">=</span> <span class="s">&quot;Task&quot;</span><span class="p">,</span> <span class="n">backend</span> <span class="o">=</span> <span class="n">train_select</span><span class="p">,</span><span class="n">target</span> <span class="o">=</span> <span class="s">&quot;label&quot;</span><span class="p">)</span>
@@ -19305,7 +19338,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;mlr3learners&quot;</span><span class="p">)</span>
@@ -19349,7 +19382,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[8]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># check original class balance</span>
@@ -19395,7 +19428,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[9]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">po_under</span> <span class="o">=</span> <span class="nf">po</span><span class="p">(</span><span class="s">&quot;classbalancing&quot;</span><span class="p">,</span>
@@ -19444,7 +19477,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[10]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">graph_down</span> <span class="o">=</span> <span class="n">GraphLearner</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="n">po_under</span> <span class="o">%&gt;&gt;%</span> <span class="n">learner_logreg</span><span class="p">)</span>
@@ -19465,7 +19498,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[11]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">lrn_up</span> <span class="o">=</span> <span class="nf">po</span><span class="p">(</span><span class="s">&quot;classbalancing&quot;</span><span class="p">,</span> <span class="n">id</span> <span class="o">=</span> <span class="s">&quot;oversample&quot;</span><span class="p">,</span> <span class="n">adjust</span> <span class="o">=</span> <span class="s">&quot;minor&quot;</span><span class="p">,</span> 
@@ -19481,7 +19514,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[12]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">graph_up</span> <span class="o">&lt;-</span> <span class="n">GraphLearner</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="n">lrn_up</span><span class="p">)</span>
@@ -19508,7 +19541,7 @@ height=420
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">hld</span> <span class="o">&lt;-</span> <span class="nf">rsmp</span><span class="p">(</span><span class="s">&quot;holdout&quot;</span><span class="p">)</span>
@@ -19732,7 +19765,7 @@ But the recall value of classif.log_reg is too high (=1).</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># train/test split</span>
@@ -19770,7 +19803,7 @@ But the recall value of classif.log_reg is too high (=1).</p>
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
 <pre>        truth
 response     0     1
-       0 41259 11717
+       0 41389 11587
        1     0     0</pre>
 </div>
 
@@ -19783,7 +19816,7 @@ response     0     1
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">measure</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.acc&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.precision&quot;</span><span class="p">))</span>
@@ -19813,7 +19846,7 @@ response     0     1
 .dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
 .dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
 .dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.777616279069767</dd><dt>classif.precision</dt><dd>0.777616279069767</dd></dl>
+</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.781278314708547</dd><dt>classif.precision</dt><dd>0.781278314708547</dd></dl>
 
 </div>
 
@@ -19835,7 +19868,7 @@ One of the main reason is probably coming from imbalanced data. Let us confirm t
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># train/test split</span>
@@ -19873,8 +19906,8 @@ One of the main reason is probably coming from imbalanced data. Let us confirm t
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
 <pre>        truth
 response     0     1
-       0 24107  6157
-       1 17062  5650</pre>
+       0 23474  5890
+       1 17837  5775</pre>
 </div>
 
 </div>
@@ -19886,7 +19919,7 @@ response     0     1
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">measure</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.acc&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.precision&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.recall&quot;</span><span class="p">)</span> <span class="p">)</span>
@@ -19916,7 +19949,7 @@ response     0     1
 .dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
 .dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
 .dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.561707188160677</dd><dt>classif.precision</dt><dd>0.796556965371398</dd><dt>classif.recall</dt><dd>0.58556195195414</dd></dl>
+</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.552117940199336</dd><dt>classif.precision</dt><dd>0.799414248739954</dd><dt>classif.recall</dt><dd>0.568226380382949</dd></dl>
 
 </div>
 
@@ -19935,7 +19968,7 @@ response     0     1
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># train/test split</span>
@@ -19973,8 +20006,8 @@ response     0     1
 <div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
 <pre>        truth
 response     0     1
-       0 24083  6167
-       1 17118  5608</pre>
+       0 24213  6186
+       1 16987  5590</pre>
 </div>
 
 </div>
@@ -19986,7 +20019,7 @@ response     0     1
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">measure</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.acc&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.precision&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.recall&quot;</span><span class="p">)</span> <span class="p">)</span>
@@ -20016,7 +20049,7 @@ response     0     1
 .dl-inline>dt, .dl-inline>dd {float: none; width: auto; display: inline-block}
 .dl-inline>dt::after {content: ":\0020"; padding-right: .5ex}
 .dl-inline>dt:not(:first-of-type) {padding-left: .5ex}
-</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.560461340984597</dd><dt>classif.precision</dt><dd>0.796132231404959</dd><dt>classif.recall</dt><dd>0.584524647460013</dd></dl>
+</style><dl class=dl-inline><dt>classif.acc</dt><dd>0.562575505889459</dd><dt>classif.precision</dt><dd>0.796506464028422</dd><dt>classif.recall</dt><dd>0.587694174757282</dd></dl>
 
 </div>
 
@@ -20114,10 +20147,10 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="4.4-Benchmarking-models">4.4 Benchmarking models<a class="anchor-link" href="#4.4-Benchmarking-models">&#182;</a></h3>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="s">&quot;nnet&quot;</span><span class="p">)</span>
@@ -20132,6 +20165,30 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
      </div>
 </div>
 </div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>Loading required package: Matrix
+
+Loaded glmnet 4.0-2
+
+</pre>
+</div>
+</div>
+
+</div>
+
 </div>
 
 </div>
@@ -20154,7 +20211,7 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_rpart</span><span class="o">=</span><span class="nf">lrn</span><span class="p">(</span><span class="s">&quot;classif.rpart&quot;</span><span class="p">)</span>
@@ -20180,7 +20237,7 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_glmnet</span><span class="o">=</span><span class="nf">lrn</span><span class="p">(</span><span class="s">&quot;classif.glmnet&quot;</span><span class="p">)</span>
@@ -20206,7 +20263,7 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_log_reg</span><span class="o">=</span><span class="nf">lrn</span><span class="p">(</span><span class="s">&quot;classif.log_reg&quot;</span><span class="p">)</span>
@@ -20232,7 +20289,7 @@ INFO  [17:04:55.702] Applying learner &#39;oversample.classif.log_reg&#39; on ta
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_nnet</span><span class="o">=</span><span class="nf">lrn</span><span class="p">(</span><span class="s">&quot;classif.nnet&quot;</span><span class="p">)</span>
@@ -20536,7 +20593,7 @@ We use keras library which has good framework inside mlr3 package.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[76]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># Define a model for Neural Net with default parameters</span>
@@ -20546,7 +20603,7 @@ We use keras library which has good framework inside mlr3 package.</p>
   <span class="nf">layer_dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="m">128</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">&#39;relu&#39;</span><span class="p">)</span> <span class="o">%&gt;%</span>
   <span class="nf">layer_dropout</span><span class="p">(</span><span class="n">rate</span> <span class="o">=</span> <span class="m">0.3</span><span class="p">)</span> <span class="o">%&gt;%</span>
   <span class="nf">layer_dense</span><span class="p">(</span><span class="n">units</span> <span class="o">=</span> <span class="m">2</span><span class="p">,</span> <span class="n">activation</span> <span class="o">=</span> <span class="s">&#39;softmax&#39;</span><span class="p">)</span> <span class="o">%&gt;%</span>
-  <span class="nf">compile</span><span class="p">(</span><span class="n">optimizer</span> <span class="o">=</span> <span class="nf">optimizer_sgd</span><span class="p">(),</span>
+  <span class="nf">compile</span><span class="p">(</span><span class="n">optimizer</span> <span class="o">=</span> <span class="s">&quot;adam&quot;</span><span class="p">,</span>
      <span class="n">loss</span> <span class="o">=</span> <span class="s">&quot;categorical_crossentropy&quot;</span><span class="p">,</span>
      <span class="n">metrics</span> <span class="o">=</span> <span class="s">&quot;accuracy&quot;</span><span class="p">)</span>
  <span class="c1"># Create the learner</span>
@@ -20569,7 +20626,7 @@ We use keras library which has good framework inside mlr3 package.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[77]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_keras_nn</span>
@@ -20607,7 +20664,7 @@ We use keras library which has good framework inside mlr3 package.</p>
 * Packages: stats
 * Predict Type: response
 * Feature types: logical, integer, numeric, character, factor, ordered,
-  POSIXct, imagepath
+  POSIXct
 * Properties: featureless, importance, missings, multiclass, oob_error,
   selected_features, twoclass, weights</pre>
 </div>
@@ -20627,7 +20684,7 @@ We use keras library which has good framework inside mlr3 package.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">design</span> <span class="o">=</span> <span class="nf">benchmark_grid</span><span class="p">(</span>
@@ -20656,11 +20713,11 @@ We use keras library which has good framework inside mlr3 package.</p>
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>                task            learner         resampling
-1: &lt;TaskClassif[45]&gt; &lt;GraphLearner[32]&gt; &lt;ResamplingCV[19]&gt;
-2: &lt;TaskClassif[45]&gt; &lt;GraphLearner[32]&gt; &lt;ResamplingCV[19]&gt;
-3: &lt;TaskClassif[45]&gt; &lt;GraphLearner[32]&gt; &lt;ResamplingCV[19]&gt;
-4: &lt;TaskClassif[45]&gt; &lt;GraphLearner[32]&gt; &lt;ResamplingCV[19]&gt;
-5: &lt;TaskClassif[45]&gt; &lt;GraphLearner[32]&gt; &lt;ResamplingCV[19]&gt;
+1: &lt;TaskClassif[45]&gt; &lt;GraphLearner[33]&gt; &lt;ResamplingCV[19]&gt;
+2: &lt;TaskClassif[45]&gt; &lt;GraphLearner[33]&gt; &lt;ResamplingCV[19]&gt;
+3: &lt;TaskClassif[45]&gt; &lt;GraphLearner[33]&gt; &lt;ResamplingCV[19]&gt;
+4: &lt;TaskClassif[45]&gt; &lt;GraphLearner[33]&gt; &lt;ResamplingCV[19]&gt;
+5: &lt;TaskClassif[45]&gt; &lt;GraphLearner[33]&gt; &lt;ResamplingCV[19]&gt;
 </pre>
 </div>
 </div>
@@ -20672,7 +20729,7 @@ We use keras library which has good framework inside mlr3 package.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">bmr</span> <span class="o">=</span> <span class="nf">benchmark</span><span class="p">(</span><span class="n">design</span><span class="p">)</span>
@@ -20695,45 +20752,45 @@ We use keras library which has good framework inside mlr3 package.</p>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>INFO  [21:36:45.357] Benchmark with 10 resampling iterations 
-INFO  [21:36:45.366] Applying learner &#39;encode.oversample.classif.glmnet&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [21:36:49.761] Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [21:36:58.867] Applying learner &#39;encode.oversample.classif.log_reg&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [21:37:01.996] Applying learner &#39;encode.oversample.classif.keras&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [21:41:57.360] Applying learner &#39;encode.oversample.classif.keras&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [21:46:52.171] Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [21:47:01.049] Applying learner &#39;encode.oversample.classif.log_reg&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [21:47:03.871] Applying learner &#39;encode.oversample.classif.glmnet&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [21:47:07.851] Applying learner &#39;encode.oversample.classif.nnet&#39; on task &#39;Task&#39; (iter 1/2) 
+<pre>INFO  [20:16:45.496] [mlr3]  Benchmark with 10 resampling iterations 
+INFO  [20:16:45.611] [mlr3]  Applying learner &#39;encode.oversample.classif.log_reg&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:16:48.570] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:16:55.917] [mlr3]  Applying learner &#39;encode.oversample.classif.glmnet&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:16:59.450] [mlr3]  Applying learner &#39;encode.oversample.classif.glmnet&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:17:02.566] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:17:09.271] [mlr3]  Applying learner &#39;encode.oversample.classif.log_reg&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:17:11.859] [mlr3]  Applying learner &#39;encode.oversample.classif.nnet&#39; on task &#39;Task&#39; (iter 2/2) 
 # weights:  172
-initial  value 147563.387993 
-iter  10 value 142597.702943
-iter  20 value 142404.837369
-iter  30 value 142271.855967
-iter  40 value 142160.931734
-iter  50 value 142118.171394
-iter  60 value 142016.328721
-iter  70 value 141860.377382
-iter  80 value 141792.160323
-iter  90 value 141769.685651
-iter 100 value 141764.407309
-final  value 141764.407309 
+initial  value 155564.411173 
+iter  10 value 142840.904847
+iter  20 value 142653.969158
+iter  30 value 142503.601528
+iter  40 value 142390.248698
+iter  50 value 142318.424466
+iter  60 value 142274.553675
+iter  70 value 142216.346311
+iter  80 value 142167.965289
+iter  90 value 142145.752555
+iter 100 value 142126.554108
+final  value 142126.554108 
 stopped after 100 iterations
-INFO  [21:47:52.223] Applying learner &#39;encode.oversample.classif.nnet&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:17:58.393] [mlr3]  Applying learner &#39;encode.oversample.classif.nnet&#39; on task &#39;Task&#39; (iter 1/2) 
 # weights:  172
-initial  value 144005.114246 
-iter  10 value 142700.946144
-iter  20 value 142515.755740
-iter  30 value 142332.045806
-iter  40 value 142198.069387
-iter  50 value 142145.817793
-iter  60 value 142114.415412
-iter  70 value 142087.796960
-iter  80 value 142032.575283
-iter  90 value 141982.320838
-iter 100 value 141951.070559
-final  value 141951.070559 
+initial  value 143365.551642 
+iter  10 value 142544.191834
+iter  20 value 142341.481120
+iter  30 value 142114.871995
+iter  40 value 142008.496013
+iter  50 value 141956.388453
+iter  60 value 141933.458301
+iter  70 value 141918.382196
+iter  80 value 141910.482625
+iter  90 value 141902.209974
+iter 100 value 141894.153667
+final  value 141894.153667 
 stopped after 100 iterations
+INFO  [20:18:48.705] [mlr3]  Applying learner &#39;encode.oversample.classif.keras&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:22:38.197] [mlr3]  Applying learner &#39;encode.oversample.classif.keras&#39; on task &#39;Task&#39; (iter 1/2) 
 </pre>
 </div>
 </div>
@@ -20760,7 +20817,7 @@ Warning message in predict.lm(object, newdata, se.fit, scale = 1, type = if (typ
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>INFO  [21:48:43.503] Finished benchmark 
+<pre>INFO  [20:26:31.877] [mlr3]  Finished benchmark 
 </pre>
 </div>
 </div>
@@ -20772,7 +20829,7 @@ Warning message in predict.lm(object, newdata, se.fit, scale = 1, type = if (typ
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">measures</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.acc&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.precision&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.recall&quot;</span><span class="p">)</span> <span class="p">)</span>
@@ -20805,11 +20862,11 @@ Warning message in predict.lm(object, newdata, se.fit, scale = 1, type = if (typ
 	<tr><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
 </thead>
 <tbody>
-	<tr><td>encode.oversample.classif.rpart  </td><td>0.6036809</td><td>0.7880093</td><td>0.6732992</td></tr>
-	<tr><td>encode.oversample.classif.glmnet </td><td>0.5649011</td><td>0.7911507</td><td>0.5998699</td></tr>
-	<tr><td>encode.oversample.classif.log_reg</td><td>0.5567918</td><td>0.7976133</td><td>0.5776895</td></tr>
-	<tr><td>encode.oversample.classif.nnet   </td><td>0.5692616</td><td>0.7926790</td><td>0.6058639</td></tr>
-	<tr><td>encode.oversample.classif.keras  </td><td>0.7790698</td><td>0.7790698</td><td>1.0000000</td></tr>
+	<tr><td>encode.oversample.classif.rpart  </td><td>0.6626586</td><td>0.7860097</td><td>0.7793343</td></tr>
+	<tr><td>encode.oversample.classif.glmnet </td><td>0.5649917</td><td>0.7916989</td><td>0.5994054</td></tr>
+	<tr><td>encode.oversample.classif.log_reg</td><td>0.5562670</td><td>0.7975630</td><td>0.5768751</td></tr>
+	<tr><td>encode.oversample.classif.nnet   </td><td>0.5132249</td><td>0.7973210</td><td>0.5031826</td></tr>
+	<tr><td>encode.oversample.classif.keras  </td><td>0.7776616</td><td>0.7792247</td><td>0.9971214</td></tr>
 </tbody>
 </table>
 
@@ -20824,7 +20881,7 @@ Warning message in predict.lm(object, newdata, se.fit, scale = 1, type = if (typ
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Best model : Neural Net but recall value is 1. As we have already seen that phenomenon, this means that our model does not distinct women to men. This probably comes from the metric used for optimizing the loss function of the sdg optimizer set inside keras.<br>
+<p>Best model : Neural Net but recall value near 1. As we have already seen that phenomenon, this means that our model does not distinct women to men. This probably comes from the metric used for optimizing the loss function of the sdg optimizer set inside keras.<br>
 One idea could be to change this metrics with class weight.</p>
 
 </div>
@@ -20848,7 +20905,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">set.seed</span><span class="p">(</span><span class="m">8008135</span><span class="p">)</span>
@@ -20967,7 +21024,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">paradox</span><span class="p">)</span>
@@ -20981,7 +21038,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[188]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_rpart</span><span class="o">=</span><span class="nf">lrn</span><span class="p">(</span><span class="s">&quot;classif.rpart&quot;</span><span class="p">)</span>
@@ -21001,7 +21058,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[190]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">learner_rpart</span><span class="o">$</span><span class="n">param_set</span>
@@ -21072,7 +21129,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[201]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">ps_encode</span> <span class="o">&lt;-</span> <span class="n">ParamSet</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span><span class="n">ParamFct</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="s">&quot;encode.method&quot;</span><span class="p">,</span><span class="n">levels</span><span class="o">=</span><span class="s">&quot;one-hot&quot;</span><span class="p">)))</span>
@@ -21093,7 +21150,7 @@ One idea could be to change this metrics with class weight.</p>
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[202]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">param_set</span> <span class="o">&lt;-</span> <span class="n">ParamSetCollection</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="nf">list</span><span class="p">(</span>
@@ -21118,11 +21175,11 @@ This is a recommanded metric for imbalance dataset : <a href="https://machinelea
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[204]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">at</span> <span class="o">=</span> <span class="n">AutoTuner</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="n">learner_rpart</span><span class="p">,</span> <span class="n">resampling</span><span class="o">=</span><span class="nf">rsmp</span><span class="p">(</span><span class="s">&quot;cv&quot;</span><span class="p">,</span> <span class="n">folds</span> <span class="o">=</span> <span class="m">2</span><span class="p">),</span> <span class="n">measure</span> <span class="o">=</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.prauc&quot;</span><span class="p">),</span>
-  <span class="n">param_set</span><span class="p">,</span> <span class="n">terminator</span><span class="o">=</span><span class="n">terminator</span><span class="p">,</span> <span class="n">tuner</span> <span class="o">=</span> <span class="n">tuner</span><span class="p">)</span>
+  <span class="n">param_set</span><span class="p">,</span> <span class="n">terminator</span><span class="o">=</span><span class="nf">trm</span><span class="p">(</span><span class="s">&quot;none&quot;</span><span class="p">),</span> <span class="n">tuner</span> <span class="o">=</span> <span class="nf">tnr</span><span class="p">(</span><span class="s">&quot;grid_search&quot;</span><span class="p">))</span>
 </pre></div>
 
      </div>
@@ -21133,7 +21190,7 @@ This is a recommanded metric for imbalance dataset : <a href="https://machinelea
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[194]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">at</span>
@@ -21178,7 +21235,7 @@ This is a recommanded metric for imbalance dataset : <a href="https://machinelea
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># predict data with tunned parameters</span>
@@ -21205,12 +21262,95 @@ This is a recommanded metric for imbalance dataset : <a href="https://machinelea
     <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>
-Error in eval(expr, envir, enclos): object &#39;at&#39; not found
-Traceback:
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>INFO  [20:27:22.008] [bbotk] Starting to optimize 8 parameter(s) with &#39;&lt;OptimizerGridSearch&gt;&#39; and &#39;&lt;TerminatorEvals&gt;&#39; 
+INFO  [20:27:22.152] [bbotk] Evaluating 1 configuration(s) 
+INFO  [20:27:22.260] [mlr3]  Benchmark with 2 resampling iterations 
+INFO  [20:27:22.267] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:27:23.994] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:27:25.341] [mlr3]  Finished benchmark 
+INFO  [20:27:25.479] [bbotk] Result of batch 1: 
+INFO  [20:27:25.481] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:27:25.481] [bbotk]        one-hot                3                minor             minor 
+INFO  [20:27:25.481] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:27:25.481] [bbotk]                TRUE                     10                1 
+INFO  [20:27:25.481] [bbotk]  classif.rpart.maxdepth classif.prauc                                uhash 
+INFO  [20:27:25.481] [bbotk]                      14     0.7790698 ba5be942-332e-4c01-9d1a-ff866eb3df9f 
+INFO  [20:27:25.504] [bbotk] Evaluating 1 configuration(s) 
+INFO  [20:27:25.602] [mlr3]  Benchmark with 2 resampling iterations 
+INFO  [20:27:25.609] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:27:27.073] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:27:28.463] [mlr3]  Finished benchmark 
+INFO  [20:27:28.614] [bbotk] Result of batch 2: 
+INFO  [20:27:28.616] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:27:28.616] [bbotk]        one-hot         3.333333                minor             minor 
+INFO  [20:27:28.616] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:27:28.616] [bbotk]                TRUE                     17                1 
+INFO  [20:27:28.616] [bbotk]  classif.rpart.maxdepth classif.prauc                                uhash 
+INFO  [20:27:28.616] [bbotk]                      20     0.7790698 0cd59cab-4d31-409a-a4ff-9f7f4869d1aa 
+INFO  [20:27:28.639] [bbotk] Evaluating 1 configuration(s) 
+INFO  [20:27:28.722] [mlr3]  Benchmark with 2 resampling iterations 
+INFO  [20:27:28.729] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:27:47.758] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:28:07.379] [mlr3]  Finished benchmark 
+INFO  [20:28:07.673] [bbotk] Result of batch 3: 
+INFO  [20:28:07.675] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:28:07.675] [bbotk]        one-hot         3.555556                minor             minor 
+INFO  [20:28:07.675] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:28:07.675] [bbotk]               FALSE                     20                0 
+INFO  [20:28:07.675] [bbotk]  classif.rpart.maxdepth classif.prauc                                uhash 
+INFO  [20:28:07.675] [bbotk]                      30     0.7771446 b02066c5-b35a-4dfb-8a6d-7b169fc701ca 
+INFO  [20:28:07.697] [bbotk] Evaluating 1 configuration(s) 
+INFO  [20:28:07.780] [mlr3]  Benchmark with 2 resampling iterations 
+INFO  [20:28:07.787] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:28:29.010] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:28:50.096] [mlr3]  Finished benchmark 
+INFO  [20:28:50.505] [bbotk] Result of batch 4: 
+INFO  [20:28:50.507] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:28:50.507] [bbotk]        one-hot                3                minor             minor 
+INFO  [20:28:50.507] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:28:50.507] [bbotk]               FALSE                      4                0 
+INFO  [20:28:50.507] [bbotk]  classif.rpart.maxdepth classif.prauc                                uhash 
+INFO  [20:28:50.507] [bbotk]                      27     0.7790224 820af38d-756c-4ad0-abdd-80f456b4cc3b 
+INFO  [20:28:50.546] [bbotk] Evaluating 1 configuration(s) 
+INFO  [20:28:50.630] [mlr3]  Benchmark with 2 resampling iterations 
+INFO  [20:28:50.636] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
+INFO  [20:29:06.609] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
+INFO  [20:29:26.728] [mlr3]  Finished benchmark 
+INFO  [20:29:27.103] [bbotk] Result of batch 5: 
+INFO  [20:29:27.105] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:29:27.105] [bbotk]        one-hot         3.777778                minor             minor 
+INFO  [20:29:27.105] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:29:27.105] [bbotk]                TRUE                      1                0 
+INFO  [20:29:27.105] [bbotk]  classif.rpart.maxdepth classif.prauc                                uhash 
+INFO  [20:29:27.105] [bbotk]                      24     0.7769085 52c87fca-990a-4472-93c8-79fde0c95d3e 
+INFO  [20:29:27.205] [bbotk] Finished optimizing after 5 evaluation(s) 
+INFO  [20:29:27.206] [bbotk] Result: 
+INFO  [20:29:27.208] [bbotk]  encode.method oversample.ratio oversample.reference oversample.adjust 
+INFO  [20:29:27.208] [bbotk]        one-hot                3                minor             minor 
+INFO  [20:29:27.208] [bbotk]  oversample.shuffle classif.rpart.minsplit classif.rpart.cp 
+INFO  [20:29:27.208] [bbotk]                TRUE                     10                1 
+INFO  [20:29:27.208] [bbotk]  classif.rpart.maxdepth learner_param_vals  x_domain classif.prauc 
+INFO  [20:29:27.208] [bbotk]                      14         &lt;list[10]&gt; &lt;list[8]&gt;     0.7790698 
 </pre>
 </div>
+</div>
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
+<pre>        truth
+response     0     1
+       0 41200 11776
+       1     0     0</pre>
+</div>
+
 </div>
 
 </div>
@@ -21226,16 +21366,16 @@ This way, the AutoTuner will do its resampling for tuning on the training set of
 The learner then undertakes predictions using the test set of the outer resampling. This yields unbiased performance measures, as the observations in the test set have not been used during tuning or fitting of the respective learner. This is called <strong>nested resampling</strong>.</p>
 
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[205]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">grid</span> <span class="o">=</span> <span class="nf">benchmark_grid</span><span class="p">(</span>
   <span class="n">task</span> <span class="o">=</span> <span class="n">task</span><span class="p">,</span>
-  <span class="n">learner</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">at</span><span class="p">,</span> <span class="n">learner_rpart</span><span class="p">),</span>
-  <span class="n">resampling</span> <span class="o">=</span> <span class="nf">rsmp</span><span class="p">(</span><span class="s">&quot;cv&quot;</span><span class="p">,</span> <span class="n">folds</span> <span class="o">=</span> <span class="m">2</span><span class="p">)</span>
+  <span class="n">learner</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">at</span><span class="p">,</span> <span class="n">learner_rpart</span><span class="p">,</span><span class="n">learner_keras_nn</span><span class="p">),</span>
+  <span class="n">resampling</span> <span class="o">=</span> <span class="nf">rsmp</span><span class="p">(</span><span class="s">&quot;cv&quot;</span><span class="p">,</span> <span class="n">folds</span> <span class="o">=</span> <span class="m">5</span><span class="p">)</span>
 <span class="p">)</span>
 
 <span class="c1"># avoid console output from mlr3tuning</span>
@@ -21251,100 +21391,10 @@ The learner then undertakes predictions using the test set of the outer resampli
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>INFO  [12:23:12.045] [mlr3]  Benchmark with 4 resampling iterations 
-INFO  [12:23:12.051] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart.tuned&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:12.383] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:12.390] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:13.217] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:14.058] [mlr3]  Finished benchmark 
-INFO  [12:23:14.263] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:14.270] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:21.533] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:30.174] [mlr3]  Finished benchmark 
-INFO  [12:23:30.475] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:30.482] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:31.276] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:32.080] [mlr3]  Finished benchmark 
-INFO  [12:23:32.307] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:32.314] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:33.084] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:33.855] [mlr3]  Finished benchmark 
-INFO  [12:23:34.113] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:34.120] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:35.111] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:36.102] [mlr3]  Finished benchmark 
-INFO  [12:23:38.416] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart.tuned&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:38.757] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:38.764] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:39.568] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:40.396] [mlr3]  Finished benchmark 
-INFO  [12:23:40.625] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:40.632] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:47.926] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:54.728] [mlr3]  Finished benchmark 
-INFO  [12:23:55.062] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:55.069] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:55.851] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:56.615] [mlr3]  Finished benchmark 
-INFO  [12:23:56.850] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:23:56.857] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:23:58.381] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:23:59.945] [mlr3]  Finished benchmark 
-INFO  [12:24:00.536] [mlr3]  Benchmark with 2 resampling iterations 
-INFO  [12:24:00.543] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:24:01.290] [mlr3]  Applying learner &#39;encode.oversample.classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:24:02.060] [mlr3]  Finished benchmark 
-INFO  [12:24:05.310] [mlr3]  Applying learner &#39;classif.rpart&#39; on task &#39;Task&#39; (iter 2/2) 
-INFO  [12:24:06.180] [mlr3]  Applying learner &#39;classif.rpart&#39; on task &#39;Task&#39; (iter 1/2) 
-INFO  [12:24:07.122] [mlr3]  Finished benchmark 
-</pre>
-</div>
-</div>
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table>
-<caption>A data.table: 2 × 10</caption>
-<thead>
-	<tr><th scope=col>nr</th><th scope=col>resample_result</th><th scope=col>task_id</th><th scope=col>learner_id</th><th scope=col>resampling_id</th><th scope=col>iters</th><th scope=col>classif.ce</th><th scope=col>time_train</th><th scope=col>classif.precision</th><th scope=col>classif.recall</th></tr>
-	<tr><th scope=col>&lt;int&gt;</th><th scope=col>&lt;list&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>1</td><td>&lt;environment: 0x2c648690&gt;</td><td>Task</td><td>encode.oversample.classif.rpart.tuned</td><td>cv</td><td>2</td><td>0.3245130</td><td>0</td><td>0.7859062</td><td>0.8022692</td></tr>
-	<tr><td>2</td><td>&lt;environment: 0x2c5d66e0&gt;</td><td>Task</td><td><span style=white-space:pre-wrap>classif.rpart                        </span></td><td>cv</td><td>2</td><td>0.2209302</td><td>0</td><td>0.7790698</td><td>1.0000000</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[207]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">measures</span> <span class="o">&lt;-</span> <span class="nf">list</span><span class="p">(</span><span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.acc&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.precision&quot;</span><span class="p">),</span> <span class="nf">msr</span><span class="p">(</span><span class="s">&quot;classif.recall&quot;</span><span class="p">))</span>
@@ -21357,43 +21407,10 @@ INFO  [12:24:07.122] [mlr3]  Finished benchmark
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output " data-mime-type="text/html">
-<table>
-<caption>A data.table: 2 × 9</caption>
-<thead>
-	<tr><th scope=col>nr</th><th scope=col>resample_result</th><th scope=col>task_id</th><th scope=col>learner_id</th><th scope=col>resampling_id</th><th scope=col>iters</th><th scope=col>classif.acc</th><th scope=col>classif.precision</th><th scope=col>classif.recall</th></tr>
-	<tr><th scope=col>&lt;int&gt;</th><th scope=col>&lt;list&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;chr&gt;</th><th scope=col>&lt;int&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th><th scope=col>&lt;dbl&gt;</th></tr>
-</thead>
-<tbody>
-	<tr><td>1</td><td>&lt;environment: 0x154d3000&gt;</td><td>Task</td><td>encode.oversample.classif.rpart.tuned</td><td>cv</td><td>2</td><td>0.6754870</td><td>0.7859062</td><td>0.8022692</td></tr>
-	<tr><td>2</td><td>&lt;environment: 0x1781ecb0&gt;</td><td>Task</td><td><span style=white-space:pre-wrap>classif.rpart                        </span></td><td>cv</td><td>2</td><td>0.7790698</td><td>0.7790698</td><td>1.0000000</td></tr>
-</tbody>
-</table>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[208]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">rr</span> <span class="o">=</span> <span class="n">bmr</span><span class="o">$</span><span class="nf">aggregate</span><span class="p">()[</span><span class="n">learner_id</span> <span class="o">==</span> <span class="s">&quot;encode.oversample.classif.rpart.tuned&quot;</span><span class="p">,</span> <span class="n">resample_result</span><span class="p">][[</span><span class="m">1</span><span class="p">]]</span>
@@ -21404,10 +21421,10 @@ INFO  [12:24:07.122] [mlr3]  Finished benchmark
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[209]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-r"><pre><span></span><span class="n">rr</span><span class="o">$</span><span class="nf">predictions</span><span class="p">()[[</span><span class="m">1</span><span class="p">]]</span><span class="o">$</span><span class="n">confusion</span>
@@ -21418,38 +21435,59 @@ INFO  [12:24:07.122] [mlr3]  Finished benchmark
 </div>
 </div>
 
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-
-
-<div class="jp-RenderedText jp-OutputArea-output " data-mime-type="text/plain">
-<pre>        truth
-response     0     1
-       0 77525 20805
-       1 25764  8346</pre>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>We can notice that our accuracy has increased with tunned parameters. The model will be then used in part 5 to predict gender with unseen data, i.e X_test</p>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-r"><pre><span></span><span class="n">rr_keras</span><span class="o">=</span><span class="n">bmr</span><span class="o">$</span><span class="nf">aggregate</span><span class="p">()[</span><span class="n">learner_id</span> <span class="o">==</span> <span class="s">&quot;encode.oversample.classif.keras&quot;</span><span class="p">,</span> <span class="n">resample_result</span><span class="p">][[</span><span class="m">1</span><span class="p">]]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-r"><pre><span></span><span class="n">rr_keras</span><span class="o">$</span><span class="nf">predictions</span><span class="p">()[[</span><span class="m">1</span><span class="p">]]</span><span class="o">$</span><span class="n">confusion</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-r"><pre><span></span><span class="c1"># predict data for keras_learner without resamplin</span>
+<span class="n">learner_keras_nn</span><span class="o">$</span><span class="nf">train</span><span class="p">(</span><span class="n">task</span><span class="p">)</span>
+<span class="n">prediction_keras</span> <span class="o">&lt;-</span> <span class="n">learner_keras_nn</span><span class="o">$</span><span class="nf">predict</span><span class="p">(</span><span class="n">task</span><span class="p">,</span> <span class="n">row_ids</span> <span class="o">=</span> <span class="n">test_set</span><span class="p">)</span>
+
+<span class="c1"># calculate performance</span>
+<span class="n">prediction_keras</span><span class="o">$</span><span class="n">confusion</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div>
 </body>
 

@@ -197,7 +197,7 @@ performances[, c("learner_id", "classif.acc","classif.precision", "classif.recal
   layer_dense(units = 128, activation = 'relu') %>%
   layer_dropout(rate = 0.3) %>%
   layer_dense(units = 2, activation = 'softmax') %>%
-  compile(optimizer = adam(),
+  compile(optimizer = "adam",
      loss = "categorical_crossentropy",
      metrics = "accuracy")
  # Create the learner
@@ -264,7 +264,7 @@ param_set <- ParamSetCollection$new(list(
 ))
 
 at = AutoTuner$new(learner_rpart, resampling=rsmp("cv", folds = 2), measure = msr("classif.prauc"),
-  param_set, terminator=terminator, tuner = tuner)
+  param_set, terminator=trm("none"), tuner = tnr("grid_search"))
 
 at
 
@@ -277,8 +277,8 @@ prediction$confusion
 
 grid = benchmark_grid(
   task = task,
-  learner = list(at, learner_rpart),
-  resampling = rsmp("cv", folds = 2)
+  learner = list(at, learner_rpart,learner_keras_nn),
+  resampling = rsmp("cv", folds = 5)
 )
 
 # avoid console output from mlr3tuning
@@ -295,3 +295,14 @@ performances
 rr = bmr$aggregate()[learner_id == "encode.oversample.classif.rpart.tuned", resample_result][[1]]
 
 rr$predictions()[[1]]$confusion
+
+rr_keras=bmr$aggregate()[learner_id == "encode.oversample.classif.keras", resample_result][[1]]
+
+rr_keras$predictions()[[1]]$confusion
+
+# predict data for keras_learner without resamplin
+learner_keras_nn$train(task)
+prediction_keras <- learner_keras_nn$predict(task, row_ids = test_set)
+
+# calculate performance
+prediction_keras$confusion
