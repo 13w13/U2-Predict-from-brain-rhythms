@@ -8,6 +8,8 @@ U2 Project - Modeling Technics of Big Data
 here we will try to predict what science and medicine calls sex at the birth of a person. 
 We would like to emphasize that this has nothing to do with nor determine in any way a person's gender, or non-gender.*
 
+![Double Secret- Magritte](https://i.pinimg.com/originals/a2/6f/35/a26f358bdcb2647aab5630b073b989bb.jpg)
+
 This group project responds to **professor Serge Nyawa instructions** written below :
 
 Your topic should be related to Big Data Analytics with a Business/economics/finance interest and should contain :
@@ -16,8 +18,6 @@ Your topic should be related to Big Data Analytics with a Business/economics/fin
 - Model planning: explain and justify the choice of your methods, techniques. Describe how you learn about the relationships between variables, how you did the selection of key variables and the most suitable models.
 - Model building / estimation: explain your estimation strategy and results.
 - Communicate results: determine if the results of the project are a success or a failure, identify key findings, quantify the business value, and develop a narrative to convey findings to stakeholders.
-
-![Double Secret- Magritte](https://www.centrepompidou.fr/media/picture/16/fa/16fa7e3efbf3ab7b7595eaed7d990b29/thumb_large.jpg)
 
 This is a notebook for the Dream Company https://github.com/13w13/U2-Predict-from-brain-rhythms 
 Data Challenge January 2020 with College de France https://www.college-de-france.fr/site/stephane-mallat/Challenge-2019-2020-Prediction-du-sexe-en-fonction-du-rythme-cerebral.htm and ENS https://challengedata.ens.fr/challenges/27
