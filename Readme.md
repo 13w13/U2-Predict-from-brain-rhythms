@@ -1,5 +1,5 @@
 # Predict sex from brain rhythms   
-Julieva Cohen, Alexandra, Antoine Settelen, Simon Weiss   
+Julieva Cohen, Alexandra Amiens, Antoine Settelen, Simon Weiss   
 U2 Project - Modeling Technics of Big Data     
 
 ~3 weeks development      
