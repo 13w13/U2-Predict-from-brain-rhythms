@@ -41,7 +41,7 @@ When a person is asleep, and depending on his state of sleep, we will observe di
 The data used was collected on 946 individuals during the night, with eyes closed and in a relaxed state. We put 7 sensors on their skull. These sensors recovered during the night 40 segments of 2 seconds for each individual.
 
 
-![Resutls from data challenge provider](https://drive.google.com/file/d/1xJSdfClttPQS3GFheoHWqfwqo9Wi5DMK/view?usp=sharing "Results")
+[Resutls from data challenge provider](https://drive.google.com/file/d/1xJSdfClttPQS3GFheoHWqfwqo9Wi5DMK/view?usp=sharing)
 
 
 **In this notebook**, 
