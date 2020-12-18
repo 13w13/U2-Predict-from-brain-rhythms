@@ -1,4 +1,4 @@
-Predict sex from brain rhythms   
+# Predict sex from brain rhythms   
 Julieva Cohen, Alexandra, Antoine Settelen, Simon Weiss   
 U2 Project - Modeling Technics of Big Data     
 
@@ -39,16 +39,9 @@ When a person is asleep, and depending on his state of sleep, we will observe di
 
 
 The data used was collected on 946 individuals during the night, with eyes closed and in a relaxed state. We put 7 sensors on their skull. These sensors recovered during the night 40 segments of 2 seconds for each individual.
+![Lax Airport](https://aecom.com/ie/wp-content/uploads/2013/12/AECOM2.18.14-160_ES.tif-797x531.jpg)
 
-
-
-
-
-
-
-
-
-
+![Resutls from data challenge provider](https://drive.google.com/file/d/1xJSdfClttPQS3GFheoHWqfwqo9Wi5DMK/view?usp=sharing)
 
 
 **In this notebook**, 
