@@ -11,11 +11,11 @@ We would like to emphasize that this has nothing to do with nor determine in any
 This group project responds to **professor Serge Nyawa instructions** written below :
 
 Your topic should be related to Big Data Analytics with a Business/economics/finance interest and should contain :
--         Discovery: learn the business domain, assess the resources available to support the project, frame the business problem as an analytics challenge, formulate initial hypotheses to test.
--         Data preparation: explain how you did the extract, load, and transform (ELT) or extract, transform and load (ETL) steps, to get your data.
--         Model planning: explain and justify the choice of your methods, techniques. Describe how you learn about the relationships between variables, how you did the selection of key variables and the most suitable models.
--         Model building / estimation: explain your estimation strategy and results.
--         Communicate results: determine if the results of the project are a success or a failure, identify key findings, quantify the business value, and develop a narrative to convey findings to stakeholders.
+- Discovery: learn the business domain, assess the resources available to support the project, frame the business problem as an analytics challenge, formulate initial hypotheses to test.
+- Data preparation: explain how you did the extract, load, and transform (ELT) or extract, transform and load (ETL) steps, to get your data.
+- Model planning: explain and justify the choice of your methods, techniques. Describe how you learn about the relationships between variables, how you did the selection of key variables and the most suitable models.
+- Model building / estimation: explain your estimation strategy and results.
+- Communicate results: determine if the results of the project are a success or a failure, identify key findings, quantify the business value, and develop a narrative to convey findings to stakeholders.
 
 
 
@@ -39,9 +39,9 @@ When a person is asleep, and depending on his state of sleep, we will observe di
 
 
 The data used was collected on 946 individuals during the night, with eyes closed and in a relaxed state. We put 7 sensors on their skull. These sensors recovered during the night 40 segments of 2 seconds for each individual.
-![Lax Airport](https://aecom.com/ie/wp-content/uploads/2013/12/AECOM2.18.14-160_ES.tif-797x531.jpg)
 
-![Resutls from data challenge provider](https://drive.google.com/file/d/1xJSdfClttPQS3GFheoHWqfwqo9Wi5DMK/view?usp=sharing)
+
+![Resutls from data challenge provider](https://drive.google.com/file/d/1xJSdfClttPQS3GFheoHWqfwqo9Wi5DMK/view?usp=sharing "Results")
 
 
 **In this notebook**, 
