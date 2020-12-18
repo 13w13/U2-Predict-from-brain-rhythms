@@ -2,7 +2,7 @@
 Julieva Cohen, Alexandra Amiens, Antoine Settelen, Simon Weiss   
 U2 Project - Modeling Technics of Big Data     
 
-~3 weeks development      
+~2 weeks development      
 
 *Disclaimer : 
 here we will try to predict what science and medicine calls sex at the birth of a person. 
