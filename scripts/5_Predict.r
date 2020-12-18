@@ -45,5 +45,3 @@ final_pred_mean[,.N,by=gender]
 getwd()
 
 fwrite(final_pred_mean,"/mnt/batch/tasks/shared/LS_root/mounts/clusters/memoire/code/Users/a.settelen/Y_test.csv")
-
-Results from data provider : 
