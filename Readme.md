@@ -6,7 +6,7 @@ U2 Project - Modeling Technics of Big Data
 
 *Disclaimer : 
 here we will try to predict what science and medicine calls sex at the birth of a person. 
-We would like to emphasize that this has nothing to do with nor determine in any way determine a person's gender, or non-gender.*
+We would like to emphasize that this has nothing to do with nor determine in any way a person's gender, or non-gender.*
 
 This group project responds to **professor Serge Nyawa instructions** written below :
 
