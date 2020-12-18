@@ -17,7 +17,7 @@ Your topic should be related to Big Data Analytics with a Business/economics/fin
 - Model building / estimation: explain your estimation strategy and results.
 - Communicate results: determine if the results of the project are a success or a failure, identify key findings, quantify the business value, and develop a narrative to convey findings to stakeholders.
 
-
+![Double Secret- Magritte](https://www.centrepompidou.fr/media/picture/16/fa/16fa7e3efbf3ab7b7595eaed7d990b29/thumb_large.jpg)
 
 This is a notebook for the Dream Company https://github.com/13w13/U2-Predict-from-brain-rhythms 
 Data Challenge January 2020 with College de France https://www.college-de-france.fr/site/stephane-mallat/Challenge-2019-2020-Prediction-du-sexe-en-fonction-du-rythme-cerebral.htm and ENS https://challengedata.ens.fr/challenges/27
