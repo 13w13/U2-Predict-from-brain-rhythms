@@ -264,7 +264,7 @@ param_set <- ParamSetCollection$new(list(
 ))
 
 at = AutoTuner$new(learner_rpart, resampling=rsmp("cv", folds = 2), measure = msr("classif.prauc"),
-  param_set, terminator=trm("none"), tuner = tnr("grid_search"))
+  param_set, terminator= trm("evals", n_evals = 36), tuner = tnr("grid_search"))
 
 at
 
